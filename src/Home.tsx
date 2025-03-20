@@ -38,7 +38,7 @@ function Home( { name }: HomeProps ) {
     async function fetchProgress() {
       
       try {
-        const response = await fetch(`https://emaserver.dsjlsdjsakdjsads.online/getProgress?name=${person}&scene1=${scene1}&scene2=${scene2}`);
+        const response = await fetch(`https://emaahslabuw.site/getProgress?name=${person}&scene1=${scene1}&scene2=${scene2}`);
         const data = await response.json();
         // we receive the data as a json response, and it maps "progress" to a two-value array
         // with scene 1's progress and scene 2's progress
@@ -57,7 +57,7 @@ function Home( { name }: HomeProps ) {
     // retrieve each user's scene names from server
     async function fetchSceneNames() {
       try {
-        const response = await fetch(`https://emaserver.dsjlsdjsakdjsads.online/getSceneNames?name=${person}&scene1=${scene1}&scene2=${scene2}`);
+        const response = await fetch(`https://emaahslabuw.site/getSceneNames?name=${person}&scene1=${scene1}&scene2=${scene2}`);
         const data = await response.json();
         // we receive the data as a json response, and it maps "sceneList" to a two-value array
         // with scene 1's name and scene 2's name for that particular user
