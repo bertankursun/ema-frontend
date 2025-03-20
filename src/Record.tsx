@@ -92,7 +92,7 @@ const Record = () => {
         const fileName = `Audio_${person}_Scene${scene}_${dateTimeString}.wav`;
         formData.append('audio', blob, fileName.replaceAll(':', '-'));
 
-        fetch('https://emaserver.dsjlsdjsakdjsads.online/uploads', {
+        fetch('https://emaahslabuw.site/uploads', {
             method: 'POST',
             body: formData,
         })
