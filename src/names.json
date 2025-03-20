@@ -1,0 +1,62 @@
+{
+    "names" : [
+        {"honey-amaro" : "BertanK"},
+        {"enchanted-forest" : "Aagney"},
+        {"pi-citadel": "YiShen"},
+        {"BINGO-master": "DAN"},
+        {"Chaichai-tea" : "JEAN"},
+        {"Feelthe-Burn" : "Bernie"},
+        {"Wreckit-rolf": "Rolf"},
+        {"Tony-Tiger": "Anthony"},
+        {"mel-low": "Mel"},
+        {"Hey-you": "Danny"},
+        {"Pa-Pa": "Michael"},
+        {"Lo-lly": "Lolly"}
+    ],
+
+    "scenes" : [
+        {"YiShen" : ["Park", "Campus"]},
+        {"BertanK" : ["Restaurant", "Public Transit", "a","d"]},
+        {"Aagney" : ["Resta", "Outsid"]},
+        {"DAN" : ["LIVE conversation", "Media","a","c"]},
+        {"JEAN" : ["Noisey Place", "Soft Speakers","a","b"]},
+        {"Bernie" : ["Media", "Talking in public","c","a"]},
+        {"Rolf" : ["Cooking/Noise", "Watching TV", "a", "c"]},
+        {"Anthony": ["Conversation","Nature", "a", "d"]},
+        {"Mel": ["Nature", "Media", "d", "c"]},
+        {"Danny": ["TV", "Group", "c", "a"]},
+        {"Michael": ["TV", "Conversation", "c", "a"]},
+        {"Lolly": ["TV", "Yoga", "c", "b"]}
+    ],
+
+    "EMAphase" : [
+        {"YiShen" : ["pre"]},
+        {"BertanK" : ["pre"]},
+        {"Aagney" : ["pre"]},
+        {"DAN" : ["post"]},
+        {"JEAN" : ["pre"]},
+        {"Bernie" : ["post"]},
+        {"Rolf" : ["post"]},
+        {"Anthony": ["post"]},
+        {"Mel": ["pre"]},
+        {"Danny": ["pre"]},
+        {"Michael": ["pre"]},
+        {"Lolly": ["pre"]}
+    ],
+
+    "survey_discount" : [
+        {"YiShen" : [0,0]},
+        {"BertanK" : [6,3]},
+        {"Aagney" : [0,0]},
+        {"DAN" : [10,10]},
+        {"JEAN" : [1,0]},
+        {"Bernie": [14,14]},
+        {"Rolf" : [9,12]},  
+        {"Anthony": [23,18]},
+        {"Mel": [1,1]},
+        {"Danny": [1,1]},
+        {"Micahel": [1,1]},
+        {"Lolly": [1,1]}
+    ]
+
+}
