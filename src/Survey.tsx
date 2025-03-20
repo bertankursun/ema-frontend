@@ -88,7 +88,7 @@ const Survey = () => {
     formData.append(`response_${answers.length + 1}`, scene || '')
 
     // send responses to the server
-    fetch('https://emaserver.dsjlsdjsakdjsads.online/saveResponses', {
+    fetch('https://emaahslabuw.site/saveResponses', {
         method: 'POST',
         body: formData
     })
