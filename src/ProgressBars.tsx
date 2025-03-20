@@ -9,7 +9,7 @@ const ProgressBars = ({ name }: ProgressBarsProps) => {
   const [scene2, setScene2] = useState(0);
 
   useEffect(() => {
-    fetch(`https://emaserver.dsjlsdjsakdjsads.online/getProgress?name=${name}`)
+    fetch(`https://emaahslabuw.site/getProgress?name=${name}`)
       .then((response) => {
         if (response.ok) {
           return response.json();
